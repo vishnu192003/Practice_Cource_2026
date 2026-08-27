@@ -40,6 +40,7 @@ obvishun = first()
 # __init__ -- constructor, automatically called when object is created
 # self -- reference variable that points to the current object instance
 
+# 1
 class Second:
     def __init__(self, name, age, city):
         self.fullname = name
@@ -54,6 +55,27 @@ class Second:
 vi = Second("vishnu", 23, "Nagpur")
 vi =Second('sarthak',23,'pune')
 vi =Second("harsh",19,"hyd")
+
+
+
+
+
+# 2
+class Second:
+    def __init__(self, name, age, city):
+        self.fullname = name
+        self.sage = age
+        self.scity = city
+        
+        print("name of student is", name)
+        print("age of student is", age)
+        print("city of student is", city)
+
+# Example instantiation:
+vi = Second("vishnu", 23, "Nagpur")
+vi =Second('sarthak',23,'pune')
+vi =Second("harsh",19,"hyd")
+
 
 
 # 2  class create karna hai ()
