@@ -22,13 +22,38 @@ obharsh = first()
 
 # function ---> method
 
+
+# example of class by int
 class first:
-    def __init__(self):
-        self.name = "srushti"
-        self.age = 23
-        self.add = "Nagpur"
-        print("name of student is :", self.name)
-        print("age of student is :", self.age)
+    
+        name = "srushti"
+        age = 23
+        add = "Nagpur"
+        print("name of student is :",name)
+        print("age of student is :", age)
 
 obvishun = first()
 
+
+# 
+
+# __init__ -- constructor, automatically called when object is created
+# self -- reference variable that points to the current object instance
+
+class Second:
+    def __init__(self, name, age, city):
+        self.fullname = name
+        self.sage = age
+        self.scity = city
+        
+        print("name of student is", self.fullname)
+        print("age of student is", self.sage)
+        print("city of student is", self.scity)
+
+# Example instantiation:
+vi = Second("vishnu", 23, "Nagpur")
+vi =Second('sarthak',23,'pune')
+vi =Second("harsh",19,"hyd")
+
+
+# 2  class create karna hai ()
