@@ -1,125 +1,158 @@
-class first:  #iterative statement(transfer condition ) break,pass ,continue 
-    #constructor --> invisible default function constructor
-    #init method 
-    name='vishnu'
-    age= 23
-    add= 'nagpur'
+# class first:  # iterative statement(transfer condition ) break,pass ,continue
+#     # constructor --> invisible default function constructor
+#     # init method
+#     name = "vishnu"
+#     age = 23
+#     add = "nagpur"
 
-    print("name of student is",name)
-    print("name of student is",age)
-    print("name of student is",add)
-obharsh = first()
-#print(obharsh)
+#     print("name of student is", name)
+#     print("name of student is", age)
+#     print("name of student is", add)
 
 
-#class
-#cl is the collection of object it is not a real world entity 
-#it just a templet or blueprint or prototype.
-
-# object
-# object is an isinstance of a class  
-# it occupied a memory
-
-# function ---> method
+# obharsh = first()
+# # print(obharsh)
 
 
-# example of class by int
-class first:
-    
-        name = "srushti"
-        age = 23
-        add = "Nagpur"
-        print("name of student is :",name)
-        print("age of student is :", age)
+# # # class
+# # # cl is the collection of object it is not a real world entity
+# # # it just a templet or blueprint or prototype.
 
-obvishun = first()
+# # # object
+# # # object is an isinstance of a class
+# # # it occupied a memory
 
-
-# 
-
-# __init__ -- constructor, automatically called when object is created
-# self -- reference variable that points to the current object instance
-
-# 1
-class Second:
-    def __init__(self, name, age, city):
-        self.fullname = name
-        self.sage = age
-        self.scity = city
-        
-        print("name of student is", self.fullname)
-        print("age of student is", self.sage)
-        print("city of student is", self.scity)
-
-# Example instantiation:
-vi = Second("vishnu", 23, "Nagpur")
-vi =Second('sarthak',23,'pune')
-vi =Second("harsh",19,"hyd")
+# # # function ---> method
 
 
+# # # example of class by int
+# class first:
+#     name = "srushti"
+#     age = 23
+#     add = "Nagpur"
+#     print("name of student is :", name)
+#     print("age of student is :", age)
 
 
-
-# 2
-class Second:
-    def __init__(self, name, age, city):
-        self.fullname = name
-        self.sage = age
-        self.scity = city
-        
-        print("name of student is", name)
-        print("age of student is", age)
-        print("city of student is", city)
-
-# Example instantiation:
-vi = Second("vishnu", 23, "Nagpur")
-vi =Second('sarthak',23,'pune')
-vi =Second("harsh",19,"hyd")
+# obvishun = first()
 
 
+# # #
 
-# 2 Classes create karne ka example:
-
-# Class 1: Student
-class Student:
-    def __init__(self, name, roll_no, course):
-        self.name = name
-        self.roll_no = roll_no
-        self.course = course
-
-    def display_details(self):
-        print("----- Student Details -----")
-        print("Name   :", self.name)
-        print("Roll No:", self.roll_no)
-        print("Course :", self.course)
-
-# Objects create karna:
-# 1. Student class ke objects
-student1 = Student("Vishnu", 101, "Python Full Stack")
-student2 = Student("Sarthak", 102, "Data Science")
-
-print()
-
-# Class 2: Teacher
-class Teacher:
-    def __init__(self, name, subject, salary):
-        self.name = name
-        self.subject = subject
-        self.salary = salary
-
-    def display_details(self):
-        print("----- Teacher Details -----")
-        print("Name   :", self.name)
-        print("Subject:", self.subject)
-        print("Salary :", self.salary)
+# # # __init__ -- constructor, automatically called when object is created
+# # # self -- reference variable that points to the current object instance
 
 
+# # # 1
+# class Second:
+#     def __init__(self, name, age, city):
+#         self.fullname = name
+#         self.sage = age
+#         self.scity = city
+
+#         print("name of student is", self.fullname)
+#         print("age of student is", self.sage)
+#         print("city of student is", self.scity)
 
 
-# 2. Teacher class ke objects
-teacher1 = Teacher("Dr. Sharma", "Computer Science", 50000)
+# # Example instantiation:
+# vi = Second("vishnu", 23, "Nagpur")
+# vi = Second("sarthak", 23, "pune")
+# vi = Second("harsh", 19, "hyd")
 
-# Methods call karna:
-student1.display_details()
-student2.display_details()
-teacher1.display_details()
+
+# # # 2
+# class Second:
+#     def __init__(self, name, age, city):
+#         self.fullname = name
+#         self.sage = age
+#         self.scity = city
+
+#         print("name of student is", name)
+#         print("age of student is", age)
+#         print("city of student is", city)
+
+
+# # Example instantiation:
+# vi = Second("vishnu", 23, "Nagpur")
+# vi = Second("sarthak", 23, "pune")
+# vi = Second("harsh", 19, "hyd")
+
+
+# ### day 3 oop
+
+
+# class Record:
+#     def __init__(self, id, name, age):
+#         self.empid = id
+#         self.empname = name
+#         self.empage = age
+
+#         print("id of employee", id)
+#         print("id of employee", name)
+#         print("id of employee", age)
+
+#     def vishnu(self, dep, salary):
+#         self.empdep = dep
+#         self.empsalary = salary
+
+#         print("dep of employee", dep)
+#         print("salary of employee", salary)
+
+#     def sarthak(self, add, edu):
+#         self.empadd = add
+#         self.empedu = edu
+
+#         print("add of employee", add)
+#         print("edu of employee", edu)
+
+
+# ob = Record(1, "sujit", 23)
+# ob.vishnu("IT", 65432)
+# ob.sarthak("ngp", "BE")
+
+
+## task
+
+# create class and create 3,4 method inside the class
+
+
+class Smartphone:
+    # Method 1: Initialization method
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+        print("Brand of phone:", brand)
+        print("Model of phone:", model)
+        print("Price of phone:", price)
+
+    # Method 2: Custom method for display specs
+    def krunal(self, display_type, refresh_rate):
+        self.display_type = display_type
+        self.refresh_rate = refresh_rate
+        print("Display type:", display_type)
+        print("Refresh rate:", refresh_rate)
+
+    # Method 3: Custom method for performance specs
+    def hardik(self, processor, ram):
+        self.processor = processor
+        self.ram = ram
+        print("Processor type:", processor)
+        print("RAM capacity:", ram)
+
+    # Method 4: Custom method for battery and camera specs
+    def priya(self, battery, camera):
+        self.battery = battery
+        self.camera = camera
+        print("Battery capacity:", battery)
+        print("Camera specs:", camera)
+
+
+# Object creation and execution (matching your exact style)
+ob = Smartphone("Apple", "iPhone 17", 79900)
+ob.krunal("OLED", "120Hz")
+ob.hardik("A19 Bionic", "8GB")
+ob.priya("4500mAh", "48MP")
+
+
