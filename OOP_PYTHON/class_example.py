@@ -19,39 +19,55 @@ print("neme :", s2.name)
 print("age :", s2.age)
 print("add :", s2.add)
 
-print()
-print("!!! 2 EXAMPLE !!! ")
-
-class Second:
-    def __init__(self, name, age, city):
-        self.fullname = name
-        self.sage = age
-        self.scity = city
-
-        print("name of student is", name)
-        print("age of student is", age)
-        print("city of student is", city)
 
 
-vi = Second("vishnu", 23, "Nagpur")
-vi = Second("sarthak", 23, "pune")
-vi = Second("harsh", 19, "hyd")
 
 
-# Fruits Class Example
-class Fruit:
-    def __init__(self, name, color, price):
-        self.fname = name
-        self.fcolor = color
-        self.fprice = price
-
-        print("-------")
-
-        print("Name of fruit is  :", name)
-        print("Color of fruit is :", color)
-        print("Price of fruit is :", price)
 
 
-f1 = Fruit("Apple", "Red", 120)
-f1 = Fruit("Banana", "Yellow", 40)
-f1 = Fruit("Mango", "Yellow", 150)
+
+
+
+
+
+
+
+
+
+
+# print()
+# print("!!! 2 EXAMPLE !!! ")
+
+# class Second:
+#     def __init__(self, name, age, city):
+#         self.fullname = name
+#         self.sage = age
+#         self.scity = city
+
+#         print("name of student is", name)
+#         print("age of student is", age)
+#         print("city of student is", city)
+
+
+# vi = Second("vishnu", 23, "Nagpur")
+# vi = Second("sarthak", 23, "pune")
+# vi = Second("harsh", 19, "hyd")
+
+
+# # Fruits Class Example
+# class Fruit:
+#     def __init__(self, name, color, price):
+#         self.fname = name
+#         self.fcolor = color
+#         self.fprice = price
+
+#         print("-------")
+
+#         print("Name of fruit is  :", name)
+#         print("Color of fruit is :", color)
+#         print("Price of fruit is :", price)
+
+
+# f1 = Fruit("Apple", "Red", 120)
+# f1 = Fruit("Banana", "Yellow", 40)
+# f1 = Fruit("Mango", "Yellow", 150)
